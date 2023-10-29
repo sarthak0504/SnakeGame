@@ -1,4 +1,4 @@
-//package snakegame;
+
 import java.awt.*;
 import javax.swing.*;
 public class SnakeGame extends JFrame  {
@@ -13,9 +13,5 @@ public class SnakeGame extends JFrame  {
         setLocationRelativeTo(null);
         setResizable(false);
         setVisible(true);
-    }
-    public static void main(String[] args) {
-        // creating instance of class SnakeGame
-        new SnakeGame();
     }
 }

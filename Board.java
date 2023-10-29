@@ -26,6 +26,7 @@ public class Board extends JPanel implements ActionListener {
     private boolean upDirection = false;
     private boolean downDirection = false;
     private boolean inGame = true;  // to stay in the game before game over
+    JButton button1;
 
 
 
@@ -88,7 +89,19 @@ public class Board extends JPanel implements ActionListener {
             SnakeGame.finalScore = (dots-3)*100;
             calScore(g,(String.valueOf(SnakeGame.finalScore)));
             gameOver(g);
+            restart();
         }
+    }
+
+    public void restart(){
+
+        button1 = new JButton("RESTART");
+        button1.setFont(new Font("Arial", 1, 20));
+        button1.setForeground(Color.YELLOW);
+        button1.setBackground(Color.blue);
+        button1.setBounds(192, 390, 230, 30);
+        button1.addActionListener(this);
+        add(button1);
     }
     public void gameOver(Graphics g){
         String endMessage = "Game Over!!";
@@ -165,6 +178,10 @@ public class Board extends JPanel implements ActionListener {
         }
         // for refreshing the screen
         repaint();
+        if (e.getSource() == button1) {
+            SnakeGame s = new SnakeGame();
+            setVisible(false);
+        }
     }
     public class TAdapter extends KeyAdapter {
         @Override
@@ -193,6 +210,5 @@ public class Board extends JPanel implements ActionListener {
         }
 
     }
-
 
 }

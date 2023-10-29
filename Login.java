@@ -8,9 +8,9 @@ import java.awt.event.ActionListener;
 import java.sql.ResultSet;
 
 public class Login extends JFrame implements ActionListener{
-   JLabel label1,label2,label3;
 
    JButton button3;
+   JButton button2;
 
 
  Login(){
@@ -28,11 +28,6 @@ public class Login extends JFrame implements ActionListener{
     setLocation(450, 200);
     setVisible(true);
 
-//    label1 = new JLabel("Snake World!!");
-//    label1.setForeground(Color.RED);
-//    label1.setFont(new Font("AvantGrade",Font.BOLD, 36));
-//    label1.setBounds(230, 50, 450, 40);
-//     add(label1);
 
     add(img_bg);
 
@@ -41,9 +36,18 @@ public class Login extends JFrame implements ActionListener{
     button3.setFont(new Font("Arial", 1, 20));
     button3.setForeground(Color.YELLOW);
     button3.setBackground(Color.black);
-    button3.setBounds(335, 353, 230, 30);
+    button3.setBounds(335, 348, 230, 30);
     button3.addActionListener(this);
     add(button3);
+
+     button2 = new JButton("INSTRUCTIONS");
+     button2.setFont(new Font("Arial", 1, 20));
+     button2.setForeground(Color.YELLOW);
+     button2.setBackground(Color.black);
+     button2.setBounds(335, 385, 230, 30);
+     button2.addActionListener(this);
+     add(button2);
+
 
 
  }
@@ -54,12 +58,15 @@ public class Login extends JFrame implements ActionListener{
              SnakeGame s = new SnakeGame();
              setVisible(false);
           }
+           else if (e.getSource() == button2) {
+              SnakeGameInstructions sgi = new SnakeGameInstructions();
+               setVisible(false);
+           }
+
        } catch (Exception E) {
           E.printStackTrace();
        }
 
     }
-    public static void main(String[] args) {
-    new Login();
- }   
+
 }
