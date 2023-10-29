@@ -141,6 +141,7 @@ public class Board extends JPanel implements ActionListener {
     }
     public void checkApple(){
         if((apple_x == x[0] && apple_y == y[0]))  {
+            new Sound();
             dots += 1;
             locateApple();
         }
@@ -179,7 +180,7 @@ public class Board extends JPanel implements ActionListener {
         // for refreshing the screen
         repaint();
         if (e.getSource() == button1) {
-            new Sound();
+            new Sound2();
             SnakeGame s = new SnakeGame();
             setVisible(false);
         }
