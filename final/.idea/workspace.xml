@@ -5,44 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d94a462-a83d-4c6d-8883-261c5e05808c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../final.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SnakeGame" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/Board$TAdapter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/Board.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/IMG/bg11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/Login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/SnakeGame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/SnakeGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/SnakeGameInstructions$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/SnakeGameInstructions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/Sound.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/Sound2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/icons/apple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/icons/dot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/icons/head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/out/production/SnakeGame/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/out/production/SnakeGame/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/out/production/SnakeGame/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/out/production/SnakeGame/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/out/production/SnakeGame/IMG/bg11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/out/production/SnakeGame/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/out/production/SnakeGame/SnakeGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/out/production/SnakeGame/icons/apple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/out/production/SnakeGame/icons/dot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/out/production/SnakeGame/icons/head.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/wave/clicked.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/final/wave/clicked2.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnakeGame" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
