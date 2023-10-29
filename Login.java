@@ -1,3 +1,4 @@
+
 import javax.swing.*;
 
 import java.awt.*;
@@ -8,9 +9,8 @@ import java.sql.ResultSet;
 
 public class Login extends JFrame implements ActionListener{
    JLabel label1,label2,label3;
-   JTextField textField2;
-   JPasswordField passwordField3;
-   JButton button1 , button2 , button3;
+
+   JButton button3;
 
 
  Login(){
@@ -42,7 +42,7 @@ public class Login extends JFrame implements ActionListener{
     button3.setForeground(Color.YELLOW);
     button3.setBackground(Color.black);
     button3.setBounds(335, 353, 230, 30);
-//    button3.addActionListener(this);
+    button3.addActionListener(this);
     add(button3);
 
 
@@ -50,27 +50,12 @@ public class Login extends JFrame implements ActionListener{
  
  public void actionPerformed(ActionEvent e) {
        try {
-          if (e.getSource() == button1) {
-             // Connn c = new Connn();
-             // String cardno = this.textField2.getText();
-             // String pin = this.passwordField3.getText();
-             // String q = "select * from login where card_number = '" + cardno + "' and  pin = '" + pin + "'";
-             // ResultSet resultSet = c.statement.executeQuery(q);
-             // if (resultSet.next()) {
-             //    this.setVisible(false);
-             //    new main_Class(pin);
-             // } else {
-             //    JOptionPane.showMessageDialog((Component)null, "Incorrect Card Number or PIN");
-             // }
-          } else if (e.getSource() == button2) {
-             this.textField2.setText("");
-             this.passwordField3.setText("");
-          } else if (e.getSource() == button3) {
-             // new Signup();
-             // this.setVisible(false);
+          if (e.getSource() == button3) {
+             SnakeGame s = new SnakeGame();
+             setVisible(false);
           }
-       } catch (Exception var7) {
-          var7.printStackTrace();
+       } catch (Exception E) {
+          E.printStackTrace();
        }
 
     }
