@@ -166,6 +166,7 @@ public class Board extends JPanel implements ActionListener {
             inGame = false;
         if(!inGame) {
             timer.stop();
+            new Sound3();
         }
 
 
