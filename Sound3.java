@@ -2,9 +2,9 @@ import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 
-public class Sound2  {
+public class Sound3  {
 
-    public Sound2() {
+    public Sound3() {
 
         playButtonClickSound();
     }
