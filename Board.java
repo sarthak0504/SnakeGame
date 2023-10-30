@@ -179,6 +179,7 @@ public class Board extends JPanel implements ActionListener {
         // for refreshing the screen
         repaint();
         if (e.getSource() == button1) {
+            new Sound();
             SnakeGame s = new SnakeGame();
             setVisible(false);
         }

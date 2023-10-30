@@ -55,10 +55,12 @@ public class Login extends JFrame implements ActionListener{
  public void actionPerformed(ActionEvent e) {
        try {
           if (e.getSource() == button3) {
+            new Sound();
              SnakeGame s = new SnakeGame();
              setVisible(false);
           }
            else if (e.getSource() == button2) {
+            new Sound();
               SnakeGameInstructions sgi = new SnakeGameInstructions();
                setVisible(false);
            }

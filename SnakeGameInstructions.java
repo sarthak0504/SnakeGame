@@ -50,6 +50,7 @@ public class SnakeGameInstructions extends JFrame {
         backButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 dispose(); // Close the instruction window
+                new Sound();
                 // Add  code to go back to the login or main menu here
                 new Login().setVisible(true);
             }
